@@ -29,7 +29,7 @@ col1 = int(input("Enter the number of columns for matrix1: "))#2
 row2 = int(input("Enter the number of rows for matrix2: "))#2
 col2 = int(input("Enter the number of columns for matrix2: "))#2
 # Check if matrices have the same number of rows
-if (row1 != row2 and col1 != col2) or (row1 == col1 == 0):
+if (row1 != row2 and col1 != col2) or (row1 == 0):
     print("Error:Both Matrices have unequal number of rows and columns, so addition and substraction of two matrices can not possible here.")
 else:
    # Get input for matrix elements

@@ -30,8 +30,8 @@ def check_win(xstate,zstate):
 if __name__ == "__main__":
     xstate = [0,0,0,0,0,0,0,0,0]
     zstate = [0,0,0,0,0,0,0,0,0]
-    turn = 1 # 1 for X and 0 for O                                                 '''                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-   ''' print("Welcome to Tic tac toe!")
+    turn = 1 # 1 for X and 0 for O                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+    print("Welcome to Tic tac toe!")
     while(True):
         printBoard(xstate,zstate)
         if(turn == 1):
